@@ -66,7 +66,6 @@ function calEyes() {
       leftEye = pose.keypoints[1].position;
 
       // keypoints are the points representing the different joints on the body recognized by posenet
-
       while (defaultRightEyePosition.length < 1) {
         defaultRightEyePosition.push(rightEye.y);
       }
